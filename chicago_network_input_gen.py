@@ -5,10 +5,10 @@ import jax.numpy as jnp
 
 # Data selection for a pair of OD
 """Data Load"""
-agent1 = pd.read_csv('agent_type_1_v2.csv')
-agent2 = pd.read_csv('agent_type_2_v2.csv')
-agent3 = pd.read_csv('agent_type_3_v2.csv')
-agent4 = pd.read_csv('agent_type_4_v2.csv')
+agent1 = pd.read_csv('./data/agent_type_1_v2.csv')
+agent2 = pd.read_csv('./data/agent_type_2_v2.csv')
+agent3 = pd.read_csv('./data/agent_type_3_v2.csv')
+agent4 = pd.read_csv('/data/agent_type_4_v2.csv')
 
 # Origin Layer
 ozone_df = agent1
