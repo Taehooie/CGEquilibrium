@@ -1,2 +1,2 @@
-# ADMM-Based-Integration
-This project aims to mathematically integrate travel demand and traffic network through ADMM. 
+# Integration of Travel Demand and Supply Models 
+This repository presents the analytical formulation of integrating travel demand and traffic network models and finds the optimal solutions to satisfy the equilibrium between demand and supply. There are two objective functions defined: (1) Gap-based and (2) Beckman-based formulations. This optimization problem has been solved by the alternating direction method of multipliers (ADMM) algorithm with BFGS/l-BFGS optimizers. The readers can find more details of this approach in this reviewing paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4250270
