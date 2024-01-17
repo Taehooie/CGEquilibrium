@@ -1,9 +1,12 @@
+import warnings
+warnings.filterwarnings('ignore')
+
 import tensorflow as tf
 from data import data_generation
 from objective_function import calculateCoreVars, optimizeSupply
-import logging
 
-logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
+import logging
+logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.DEBUG)
 
 
 def admm_optimization(od_volume,
